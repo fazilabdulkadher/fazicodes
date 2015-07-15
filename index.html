@@ -10,6 +10,7 @@
     <link href="css/normalize.css"rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" media="(max-width: 767px)" href="css/max-767px.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,14 +19,25 @@
     <![endif]-->
   </head>
   <body>
+  <ul class="navigation hidden-desk">
+	<li class="nav-item"><a href="#">Home</a></li>
+	<li class="nav-item"><a href="#">Portfolio</a></li>
+	<li class="nav-item"><a href="#">About</a></li>
+	<li class="nav-item"><a href="#">Blog</a></li>
+	<li class="nav-item"><a href="#">Contact</a></li>
+</ul>
+<input type="checkbox" id="nav-trigger" class="nav-trigger hidden-desk" />
+<label for="nav-trigger" class="hidden-desk"></label>
+
+<div class="site-wrap">
   <div class="my-self">
   <div class="container">
   <header role="banner">
   <h1>&nbsp;</h1>
   <nav role="navigation">
   	<ul>
+    <li><a href="#mywork">Work</a></li>
 	<li><a href="#">About Me</a></li>
-    <li><a href="#">Work</a></li>
     <li><a href="#">Writing</a></li>
 	<li><a href="#">Contact</a></li>    
     </ul>
@@ -34,15 +46,45 @@
   <div class="text-center me">
 <h1 class="uppercase bold">Hello I’m BLABL </h1>
 <h4>Design & Build Beautiful Crafted Web Experiences</h4>
-<a href="#"  class="button uppercase">Hire me </a><br>
-
+<a href="#"  class="button uppercase">Hire me </a>
 <div class="arrow bounce">
 </div>
+</div>
+</div>
+</div>
+<div class="my-work text-center" id="mywork">
+<div class="container hideme" >
+<h5 class="work-h5 base-color">SOME OF MY LATEST WORK</h5>
 </div>
 </div>
 </div>
     <!-- jQuery (JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script>
+	$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1000);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+	</script>
   </body>
 </html>

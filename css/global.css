@@ -31,8 +31,7 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-body {
-}
+
 h1, .alpha,
 h2, .beta,
 h3, .gamma,
@@ -161,3 +160,7 @@ li {
 	}
 .text-center{
 	text-align:center;}
+.hidden-desk{
+	display:none;}
+.base-color{
+	color:rgb(230, 83, 5);}
