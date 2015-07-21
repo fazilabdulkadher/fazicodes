@@ -150,17 +150,40 @@ li {
 .container{
 		width:1100px;
 		margin:0 auto;}
-
+/*Grid System*/
+.col{
+	padding-left:.5em;
+}
+.col .col4{
+	margin-left:.8em;}
+.col .col12{
+	width:100%;
+	float:left;
+		}
+.col .col3{
+	width:30%;
+	float:left;}
+.col .col4{
+		width:23.777%;
+		float: left;}
 
 /*Text Style*/
 .uppercase{
 	text-transform:uppercase;}
 .bold{
 	font-family: 'faricynew-bold', sans-serif;
+	font-weight:bold;
 	}
+.prt-ston{
+	margin-top:3em;}
 .text-center{
 	text-align:center;}
 .hidden-desk{
 	display:none;}
 .base-color{
 	color:rgb(230, 83, 5);}
+.base-bg{
+	background-color:rgb(230, 83, 5);}
+
+.clr-fix{
+		clear:both;}
