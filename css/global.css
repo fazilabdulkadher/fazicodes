@@ -74,7 +74,7 @@ h6, .zeta {
 }
 p,
 blockquote {
-    font-size: 1.375em;
+    font-size: .85em;
     margin: 0 0 1.0909090909090908em;
     line-height: 1.0909090909090908;
     -webkit-hyphens: auto;
@@ -95,6 +95,9 @@ li {
     line-height: 1.0909090909090908;
     margin: 0;
 }
+
+a{
+	-webkit-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);-moz-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);-o-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);}
 [role=banner]{
 		margin-top:50px;}
 [role=navigation] {
@@ -116,8 +119,7 @@ li {
 	padding-bottom:30px;}
 [role=navigation] a {
 	text-decoration:none;
-	color:#000000;-webkit-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);-moz-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);-o-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);
-	
+	color:#000000;
  }
 [role=navigation] a:hover {
 	color:#F1860E;}
@@ -159,12 +161,22 @@ li {
 .col .col12{
 	width:100%;
 	float:left;
+	padding-left:.4em;
 		}
+.col .col1{
+	width:10%;
+	float:left;}
+.col .col2{
+	width:19.888%;
+	float:left;}
 .col .col3{
 	width:30%;
 	float:left;}
 .col .col4{
 		width:23.777%;
+		float: left;}
+.col .col6{
+		width:49.777%;
 		float: left;}
 
 /*Text Style*/
@@ -174,8 +186,10 @@ li {
 	font-family: 'faricynew-bold', sans-serif;
 	font-weight:bold;
 	}
+.nobold{
+	font-weight:normal;}
 .prt-ston{
-	margin-top:3em;}
+	margin-top:1.5em;}
 .text-center{
 	text-align:center;}
 .hidden-desk{
@@ -184,6 +198,27 @@ li {
 	color:rgb(230, 83, 5);}
 .base-bg{
 	background-color:rgb(230, 83, 5);}
-
+.actions{
+	padding:60px 0 20px 0;}
 .clr-fix{
 		clear:both;}
+.gray{
+	color: rgba(142,142,142,1.00);}		
+.top-mrg-10{
+		margin-top:10px;}
+.top-mrg-30{
+		margin-top:30px;}
+.inlile-list > li{
+	display: inline;
+	margin-right:10px;
+	font-size:1.4em;}
+.inlile-list > li > a{
+	text-decoration: none;
+	color:rgba(0,0,0,1.00);}
+
+.inlile-list > li > a:hover{
+	color:rgba(86,86,86,1.00);
+	}
+
+.pdng-lf-none{
+	padding-left:0;}
