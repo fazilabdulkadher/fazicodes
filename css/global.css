@@ -97,7 +97,8 @@ li {
 }
 
 a{
-	-webkit-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);-moz-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);-o-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);}
+	-webkit-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);-moz-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);-o-transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);transition:color .35s cubic-bezier(0.25,0.46,0.45,0.94);
+	text-decoration:none;}
 [role=banner]{
 		margin-top:50px;}
 [role=navigation] {
@@ -169,12 +170,13 @@ a{
 .col .col2{
 	width:19.888%;
 	float:left;}
-.col .col3{
-	width:30%;
-	float:left;}
 .col .col4{
+	width:32.2%;
+	float:left;}
+.col .col3{
 		width:23.777%;
-		float: left;}
+		float: left;
+		margin-left:.8em;}
 .col .col6{
 		width:49.777%;
 		float: left;}
@@ -189,7 +191,7 @@ a{
 .nobold{
 	font-weight:normal;}
 .prt-ston{
-	margin-top:1.5em;}
+	margin-top:3.5em;}
 .text-center{
 	text-align:center;}
 .hidden-desk{
@@ -222,3 +224,9 @@ a{
 
 .pdng-lf-none{
 	padding-left:0;}
+.mg-lft-0{
+	margin-left:0!important;}
+.pge-top-pdng{
+	padding-top:3em;
+	padding-bottom:3em;
+	}
