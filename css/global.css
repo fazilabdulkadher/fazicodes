@@ -184,6 +184,8 @@ a{
 /*Text Style*/
 .uppercase{
 	text-transform:uppercase;}
+.captls{
+	text-transform:capitalize;}
 .bold{
 	font-family: 'faricynew-bold', sans-serif;
 	font-weight:bold;
