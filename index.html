@@ -10,6 +10,8 @@
     <link href="css/normalize.css"rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <!--[if lte IE 9]><link href='css/animations-ie-fix.css' rel='stylesheet'><![endif]-->
 	<link href="css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" media="(max-width: 767px)" href="css/max-767px.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -33,23 +35,23 @@
 <div class="site-wrap">
   <div class="my-self">
   
-<div class="overlay-light">
+<div class="overlay-light" id="me">
   <div class="container">
   <header role="banner">
   <h1>&nbsp;</h1>
   <nav role="navigation">
   	<ul>
     <li><a href="#mywork">Work</a></li>
-	<li><a href="#">About Me</a></li>
-    <li><a href="#">Writing</a></li>
-	<li><a href="#">Contact</a></li>    
+	<li><a href="#about">About Me</a></li>
+    <li><a href="#blog">Writing</a></li>
+	<li><a href="#contact">Contact</a></li>    
     </ul>
   </nav>
   </header>
-  <div class="text-center me">
-<h1 class="uppercase bold">Hello I’m <span class="captls">Fazil </span></h1>
-<h4>Design & Build Beautiful Crafted Web Experiences</h4>
-<a href="#"  class="button uppercase">Hire me </a>
+  <div class="text-center me animatedParent animateOnce" data-sequence="500">
+<h1 class="uppercase bold animated growIn slower go" data-id="1">Hello I’m <span class="captls base-color">Fazil </span></h1>
+<h4 class="animated bounceInRight slower go" data-id="2">Design & Build Beautiful Web & App Experiences</h4>
+<a href="#contact"  class="button uppercase animated bounceInLeft slower go" data-id="3">Hire me </a>
 <div class="arrow bounce" action="#mywork">
 </div>
 </div>
@@ -57,8 +59,18 @@
 </div>
 </div>
 <div class="my-work text-center" id="mywork">
-<div class="container" >
-<h5 class="work-h5">SOME OF MY LATEST WORK</h5>
+<div class="container">
+<div class="animatedParent">
+<h1 class="animated bounceInRight delay-250">work</h1>
+<label class="my-work-l gray my-role gray animated bounceInRight delay-500">Dreaming in RGB, CMYK or Pantone color is completely normal.</label>
+<ul class="inlile-list work-list animated bounceInRight delay-750"> 
+<li><a href="#" class="active">All</a></li>
+<li><a href="#">Web</a></li>
+<li><a href="#">Mobile</a></li>
+<li><a href="#">3D</a></li>
+<li><a href="#">Wireframing</a></li>
+</ul>
+</div>
 <div class="col col12 prt-ston">
 	<div class="col3 portfolio-cont-item">
     	<div class="port-body">
@@ -112,54 +124,55 @@
     
 </div>
 </div>
-<div class="actions">
-<a href="#" class="button uppercase">view my all works </a>
+<div class="actions animatedParent">
+<a href="#" class="button uppercase repeat animated pulse slow">view my all works </a>
 
 </div>
 </div>
-<div class="about">
+<div class="about" id="about">
 <div class="container">
 <div class="col col12">
-<div class="col6">
-<h2>about me</h2>
-<label class="my-role gray">I'm a UX/UI Designer and Front End Developer from Sydney, Australia.</label>
-<p class="top-mrg-10 gray">I enjoy turning complex problems into simple, beautiful and intuitive interface designs. When I'm not coding or pushing pixels, you'll find me in the gym or on the court shooting hoops.</p>
+<div class="col6 animatedParent">
+<h2 class="animated bounceInRight delay-250">about me</h2>
+<label class="my-role gray animated bounceInRight delay-500">I'm a UX/UI Designer and Front End Developer from Kerala, India.</label>
+<p class="top-mrg-10 gray animated bounceInUp">I enjoy turning complex problems into simple, beautiful and intuitive interface designs. When I'm not coding or pushing pixels, you'll find me in the gym or on the court shooting hoops.</p>
 <!--<span class="bold">I'm a self-taught interaction & user interface designer based in Berlin,</span> firmly believing that user experience is about the ideas and process, not the artifacts. That's why I've been taking on various design and product development roles in my career to be able to understand all the ins and outs of the process and help you and your developers deliver the product that your users will love.
 
 For the last ten years I have been doing a range of things — from interaction and user interface design through web development to leading product development teams, to make sure I can deliver anything your team needs to get your idea off the ground.
 
 I work for your users and your customers. Let me show you how.-->
-<ul class="inlile-list top-mrg-10 base-color">
+<ul class="inlile-list top-mrg-10 base-color animated bounceInRight delay-500">
+<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
 <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
 <li><a href="#"><i class="fa fa-behance"></i></a></li>
 <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 <li><a href="#"><i class="fa fa-github"></i></a></li>
-</ul>
+</ul> 
 
 <div class="clr-fix"></div>	
 <hr class="top-mrg-10 white-bg">
 </div>
 <div class="col col12 pdng-lf-none top-mrg-30">
-<div class="col2">
-<div class="my-photo-thumb">
+<div class="col2 animatedParent">
+<div class="my-photo-thumb animated tada delay-500">
 <a href="#"><img src="images/sliderbg1.jpg"></a>
 </div>
 </div>
 
-<div class="col2">
-<div class="my-photo-thumb">
+<div class="col2 animatedParent">
+<div class="my-photo-thumb animated tada delay-250">
 <a href="#"><img src="images/sliderbg1.jpg"></a>
 </div>
 </div>
 
-<div class="col2">
-<div class="my-photo-thumb">
+<div class="col2 animatedParent">
+<div class="my-photo-thumb animated tada delay-500">
 <a href="#"><img src="images/sliderbg1.jpg"></a>
 </div>
 </div>
 
-<div class="col2">
-<div class="my-photo-thumb">
+<div class="col2 animatedParent">
+<div class="my-photo-thumb animated tada delay-750">
 <a href="#"><img src="images/sliderbg1.jpg"></a>
 </div>
 </div>
@@ -173,58 +186,66 @@ I work for your users and your customers. Let me show you how.-->
 <div class="my-work my-skil">
 	<div class="container">
     <div class="tek-skil">
-<div class="pie-cht-cont">
-<h5 class="skill-h5">MY TECHNICAL SKILLS</h5>
-<span class="gray sub-h5">I can say i’m quite good at</span>
+<div class="pie-cht-cont animatedParent">
+<h5 class="skill-h5 animated bounceInRight delay-500">MY TECHNICAL SKILLS</h5>
+<span class="gray sub-h5 animated bounceInRight delay-250">I can say i’m quite good at</span>
+<ul class="inlile-list work-list wr-li2 animated bounceInRight delay-750"> 
+<li><a href="#" class="active">Tools</a></li>
+<li><a href="#">Skills</a></li>
+</ul>
 </div>
 <div class="col col12">
 <div class="col4 skill mg-lft-0">
-	<ul>
-	<li><div class="skill-bub ai">Ai</div></li>
-    <li class="actv-li"><div class="bar"><div class="progress"></div></div><span>Illustrator</span></li>
+
+    <ul class="animatedParent">
+	<li class="animated tada delay-250"><div class="skill-bub ps">Ps</div></li>
+    <li class="actv-li animated tada delay-500"><div class="bar"><div class="progress ps-pg">Photoshop<span class="pull-right">80%</span></div></div></li>
     </ul>
+	
     <div class="clr-fix"></div>
-    <ul>
-	<li><div class="skill-bub dw">Dw</div></li>
-    <li class="actv-li"><div class="bar"><div class="progress"></div></div><span>Dreamweaver</span></li>
+    <ul class="animatedParent">
+	<li class="animated tada delay-250"><div class="skill-bub dw">Dw</div></li>
+    <li class="actv-li animated tada delay-250"><div class="bar"><div class="progress ps-dw">Dreamweaver <span class="pull-right">90%</span></div></div></li>
     </ul>
-    <ul>
-	<li><div class="skill-bub ps">Ps</div></li>
-    <li class="actv-li"><div class="bar"><div class="progress"></div></div><span>Photoshop</span></li>
+       <ul class="animatedParent">
+	<li class="animated tada delay-250"><div class="skill-bub cd"></div></li>
+    <li class="actv-li animated tada delay-250"><div class="bar"><div class="progress ps-cd">CorelDraw <span class="pull-right">80%</span></div></div></li>
     </ul>
-       <ul>
-	<li><div class="skill-bub cd"></div></li>
-    <li class="actv-li"><div class="bar"><div class="progress"></div></div><span>CorelDraw</span></li>
+    <ul class="animatedParent">
+	<li class="animated tada delay-250"><div class="skill-bub ai">Ai</div></li>
+    <li class="actv-li animated tada delay-250"><div class="bar"><div class="progress ps-il">Illustrator <span class="pull-right">60%</span></div></div></li>
     </ul>
-    
 </div>
 <div class="tek-cp col4  mg-lft-0">
-<img src="images/pie-chart.png" class="col12"/>
+<img src="images/pie-chart.png"/>
 </div>
-<div class="skill pull-right">
-
-    <div class="clr-fix"></div>
-    <ul>
-	<li><div class="skill-bub">Ai</div></li>
-    <li class="actv-li"><div class="bar"><div class="progress"></div></div><span>Adobe Illustrator</span></li>
+<div class="skill pull-right animatedParent">
+    <ul class="animatedParent">
+	<li class="animated tada delay-250"><div class="skill-bub htm">&lt;/&gt;</div></li>
+    <li class="actv-li animated tada delay-250"><div class="bar"><div class="progress ps-html">html<span class="pull-right">90%</span></div></div></li>
     </ul>
     <div class="clr-fix"></div>
-    <ul>
-	<li><div class="skill-bub">Ai</div></li>
-    <li class="actv-li"><div class="bar"><div class="progress"></div></div><span>Adobe Illustrator</span></li>
+    <ul class="animatedParent">
+	<li class="animated tada delay-250"><div class="skill-bub css">{ }</div></li>
+    <li class="actv-li animated tada delay-250"><div class="bar"><div class="progress ps-css">CSS<span class="pull-right">85%</span></div></div></li>
     </ul>
     <div class="clr-fix"></div>
-    <ul>
-	<li><div class="skill-bub">Ai</div></li>
-    <li class="actv-li"><div class="bar"><div class="progress"></div></div><span>Adobe Illustrator</span></li>
+    <ul class="animatedParent">
+	<li class="animated tada delay-250"><div class="skill-bub js">Js</div></li>
+    <li class="actv-li animated tada delay-250"><div class="bar"><div class="progress ps-js">Jquery<span class="pull-right">50%</span></div></div></li>
+    </ul>
+    <div class="clr-fix"></div>
+    <ul class="animatedParent">
+	<li class="animated tada delay-250"><div class="skill-bub git"><i class="fa fa-code-fork"></i></div></li>
+    <li class="actv-li animated tada delay-250"><div class="bar"><div class="progress ps-git">Git<span class="pull-right">75%</span></div></div></li>
     </ul>
 </div>
 
 </div>
 <div class="clr-fix"></div>
-<div class="actions">
+<div class="actions animatedParent">
 <div>Interested in working together?</div>
-<a href="#" class="button uppercase shoot">shoot me an email</a>
+<a href="#contact" class="button uppercase shoot repeat animated pulse slow">shoot me an email</a>
 <div class="resum">
 <a href="#" class="base-color"> or download printable resume</a>
 </div>
@@ -235,11 +256,71 @@ I work for your users and your customers. Let me show you how.-->
     
 <div class="clr-fix"></div>
 </div>
+<div class="testmonial about">
+	<div class="container text-center">
+    <ul class="inlile-list clnt-list">
+    <li><a class="clnt-ph-cont clnt-one" href="#"></a></li>
+    <li><a class="clnt-ph-cont clnt-one" href="#"></a></li>
+    <li><a class="clnt-ph-cont clnt-one" href="#"></a></li>
+    </ul>
+    <div class="test-text">
+    <p> <span class="tst-qts"><i class="fa fa-quote-left"></i></span> 
+     he is a talented designer and great to work with. Not only is he an amazing designer, but he has ingenious web skills with an eye for detail. He is very innovative and always looks for new solutions as well as fresh ideas that can advance his knowledge
+     <span class="tst-qts"><i class="fa fa-quote-right"></i></span> 
+      </p>
+      <hr class="clnt-hr">
+    <div class="clnt-det">
+    <div class="bold">Clinet name</div>
+    <div>Company name</div>
+    </div>
+    </div>
+    </div>
 </div>
+<div class="contact about" id="contact">
+<div class="container animatedParent animateOnce " >
+<h2 class="animated bounceInRight ">Contact</h2>
+<label class="my-role gray animated bounceInRight delay-250" >Let's have a cup of coffee together?</label>
+<div class="col col12 pdng-lf-none">
+<div class="col6 pdng-lf-none animatedParent animateOnce">
+
+<form class="top-mrg-30 animated bounceInRight slower delay-250" >
+<input type="text" placeholder="Name">
+<input type="text" placeholder="Email">
+<input type="text" placeholder="Subject">
+<textarea placeholder="Message" rows="5"></textarea>
+<ul class="inlile-list top-mrg-10 base-color">
+<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+<li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+<li><a href="#"><i class="fa fa-behance"></i></a></li>
+<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+<li><a href="#"><i class="fa fa-github"></i></a></li>
+</ul>
+<input type="submit" value="SUBMIT" class="btn">
+<input type="submit" value="Reset" class="btn">
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="clr-fix"></div>
+
+</div>
+<footer>
+<div class="container">
+<div class="ft-cont">
+<a href="#me" class="up" ><i class="fa fa-angle-double-up dsly-blc"></i></a>
+<div>© <span id="year"></span> fazicodes </div>
+<div class="base-color">ALL RIGHTS RESERVED</div>
+</div>
+</div>
+</footer>
 </div>
     <!-- jQuery (JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/custom.js"></script>
+    <!--Animation-->
+    <script src="js/css3-animate-it.js"></script>
     </body>
 </html>
