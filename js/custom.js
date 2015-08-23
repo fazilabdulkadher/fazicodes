@@ -18,3 +18,7 @@ var copy = new Date();
 var copyRight = copy.getFullYear();
 var printYear = document.getElementById('year');
 printYear.innerHTML = copyRight;
+
+$(".show-more").click(function(){
+    $("#show-secnd-row").show(200);
+});
