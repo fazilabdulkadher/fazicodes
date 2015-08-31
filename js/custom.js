@@ -22,3 +22,15 @@ printYear.innerHTML = copyRight;
 $(".show-more").click(function(){
     $("#show-secnd-row").show(200);
 });
+//$(".showweb").click(function(){
+//    $(".mob").hide();
+//	$(".wire").hide();
+//});
+//
+//$(".showmob").click(function(){
+//    $(".web").hide();
+//	$(".wire").hide();
+//});
+$(".show-more").click(function(){
+    $(".show-more").hide();
+});
