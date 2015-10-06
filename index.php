@@ -184,9 +184,9 @@
 
 </div>
 </div>
-<div class="about" id="about">
+<div class="about prof-bg" id="about">
 <div class="container">
-<div class="col col12">
+<div class="col col12 col-push">
 <div class="col6 animatedParent">
 <h2 class="animated bounceInRight delay-250">about me</h2>
 <label class="my-role gray animated bounceInRight delay-500">I'm a UX/UI Designer and Front End Developer from Kerala, India.</label>

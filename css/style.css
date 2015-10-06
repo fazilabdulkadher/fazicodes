@@ -12,6 +12,13 @@
 	min-height:400px;
 	padding:2em 0 4em 0;
 	font-size:1.5em;}
+.prof-bg{
+	background-image:url(../images/FAZIL_col.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:left top;}
+.col-push{
+	margin-left:20%;}
 .me{
 	padding-top:4em;}
 .hideme
