@@ -10,8 +10,6 @@ label[for="nav-trigger"]{
 .prof-bg{
 	background-image:none;
 	background-color:#FFFFFF;}
-	.container{
-		width:100%;}
 	.my-self{
 	background-color:transparent;
 	background: url(../images/FAZIL_col.png) top center;
@@ -24,11 +22,9 @@ label[for="nav-trigger"]{
     -o-background-size: cover !important;
     background-size: cover !important;
 	padding-top: 14em; }
-.overlay-light{
-	background:none;}
-.strok{
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: white;}
+
+.me{
+	padding-top:4em!important;}
  .pro-list{
  	display:none;}
 .overlay-light{
@@ -38,9 +34,7 @@ h1, .alpha {
 	line-height:0.927273;}
 h2, .beta {
     font-size: 2.09375em;}
-.me {
-    padding-top: 2em;
-}
+ 
 .prt-ston{
 	display:flex;
 	flex-wrap:wrap;}
