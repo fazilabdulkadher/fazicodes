@@ -26,7 +26,8 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
   list-style: none;
   background: #111;
 }
-
+.test-text{
+	width:100%;}
 /* Navigation Menu - List items */
 .nav-item {
   /* non-critical appearance styles */
