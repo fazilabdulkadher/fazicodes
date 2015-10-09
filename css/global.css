@@ -183,6 +183,9 @@ a{
 .col .col6{
 		width:49.777%;
 		float: left;}
+.col .col8{
+		width:79.777%;
+		float: left;}
 
 /*Text Style*/
 .uppercase{

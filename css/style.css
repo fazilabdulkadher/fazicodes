@@ -1,5 +1,7 @@
 @charset "utf-8";
 /* Styles */
+.pro-list .col2{
+	margin-right:30px!important;}
 .tools{
 	display:none;}
 .site-wrap{
@@ -7,7 +9,7 @@
 .my-self{
 	background-image:url(../images/sliderbg1.jpg);
 	background-attachment:fixed;
-	background-color:rgb(230, 83, 5);}
+	background-color:#DF2950;}
 .about{
 	min-height:400px;
 	padding:2em 0 4em 0;
@@ -268,6 +270,7 @@ border-radius: 4px;
 	height:90px;
 	padding:4px;
 	background-color:rgba(255,255,255,1.00);
+	border: #E8E8E8 1px solid;
 	position:relative;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
