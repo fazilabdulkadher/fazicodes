@@ -36,6 +36,8 @@ label[for="nav-trigger"]{
 h1, .alpha {
 	font-size: 3.125em;
 	line-height:0.927273;}
+h2, .beta {
+    font-size: 2.09375em;}
 .me {
     padding-top: 2em;
 }
@@ -58,9 +60,15 @@ h1, .alpha {
 .col .col4{
 	width:100%;
 	margin-bottom:1em;}
+.col .col6{
+	width:100%;}
+.pdng-mob{
+	padding:0 6px;}
 .work-list {
     margin-top: 2em;
 }
+.tek-cp{
+	margin-top:0;}
 .button{
 	font-size:1em;
 	padding: .4em 1em;}
@@ -72,4 +80,15 @@ h1, .alpha {
 .inlile-list > li {
 	display:inline-block;
 	margin-bottom:10px;}
+footer{
+	padding: 25px 0;}
+.cpy-rt{
+	position:relative;}
+.up{
+	width: 30px;
+    height: 30px;
+    position: relative;}
+.arrow{
+	position:relative;
+	margin-top:10px;}
 }

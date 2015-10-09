@@ -145,6 +145,10 @@ a{
   text-transform: uppercase;
   letter-spacing: .05em;
   -webkit-font-smoothing: antialiased;}
+ img {
+    border: 0;
+    max-width: 100%;
+}
  .button:hover{
 	 -webkit-box-shadow: 0 5px 0 #B5193A;
   -moz-box-shadow: 0 5px 0 #B5193A;

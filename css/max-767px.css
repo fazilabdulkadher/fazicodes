@@ -27,7 +27,11 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
   background: #111;
 }
 .test-text{
-	width:100%;}
+	width:100%;
+	padding:0 6px;}
+.clnt-list {
+    margin-top: 0;
+}
 /* Navigation Menu - List items */
 .nav-item {
   /* non-critical appearance styles */
