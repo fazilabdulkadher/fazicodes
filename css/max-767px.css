@@ -1,10 +1,11 @@
 @charset "utf-8";
 /* Style from 767px */
-body {
+@media screen and (max-width:767px){body {
 	/* Without this, the body has excess horizontal scroll when the menu is open */
   overflow-x: hidden;
 }
-
+[role=navigation]{
+	display:none;}
 /* Additional non-critical styles */
 
 /* Micro reset */
@@ -61,10 +62,7 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
   bottom: 100%;
   left: 0;
   z-index: 1;
-  
-  /* non-critical apperance styles */
-  padding:0 0 0 4em;
-  background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);
+   background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);
   background-size: 200%;
 }
 
@@ -77,8 +75,8 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
 
 label[for="nav-trigger"] {
   /* critical positioning styles */
-  position: fixed;
-  left: 15px; top: 15px;
+  position: absolute;
+  left: 15px; top: 66px;
   z-index: 2;
   
   /* non-critical apperance styles */
@@ -104,4 +102,7 @@ label[for="nav-trigger"] {
 }
 
 .hidden-desk{
-	display: block;}
+	display: block;
+	margin-top:0;}
+
+}
