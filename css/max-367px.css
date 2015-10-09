@@ -91,4 +91,10 @@ footer{
 .arrow{
 	position:relative;
 	margin-top:10px;}
+.png-con{
+	padding:10px;}
+.mob-pdng-abt{
+	padding-bottom:21em;}
+.disply-non-mb{
+	display:none;}
 }
