@@ -1,10 +1,12 @@
 /* CSS Document */
-@media screen and (max-width:367px){
+@media screen and (max-width:400px){
 [role=banner] {
     margin-top:0;
 }
 label[for="nav-trigger"]{
 	top:15px!important;}
+.about{
+	padding: 2em 0 0em 0;}
 .prof-bg{
 	background-image:none;
 	background-color:#FFFFFF;}
@@ -40,7 +42,20 @@ h1, .alpha {
 .prt-ston{
 	display:flex;
 	flex-wrap:wrap;}
+.mob-pull{
+	float:none!important;}
+.actions .shoot{
+	font-size:.8em;}
+.pie-cht-cont {
+    padding: 0 0 1em 0;
+}
+.my-work {
+    padding: 2em 0 1em 0;
+}
 .col .col3{
+	width:100%;
+	margin-bottom:1em;}
+.col .col4{
 	width:100%;
 	margin-bottom:1em;}
 .my-work{
