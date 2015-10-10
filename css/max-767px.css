@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* Style from 767px */
-@media screen and (max-width:767px){
+@media screen and (max-width:767px){ 
 .skill > ul{ 
 	width:260px;
 	margin:auto 0;}
@@ -217,7 +217,7 @@ footer{
     position: relative;}
 .arrow{
 	position:relative;
-	margin-top:10px;}
+	margin-top:50px;}
 .png-con{
 	padding:10px;}
 .mob-pdng-abt{
