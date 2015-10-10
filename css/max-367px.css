@@ -1,5 +1,7 @@
 /* CSS Document */
 @media screen and (max-width:400px){
+.mrg-mb-itm{
+	width: 260px!important;}
 [role=banner] {
     margin-top:0;
 }

@@ -224,7 +224,8 @@ footer{
 	padding-bottom:21em;}
 .disply-non-mb{
 	display:none;}
-}
 
-
+.mrg-mb-itm{
+	width: 320px;
+    margin: auto;}
 }
