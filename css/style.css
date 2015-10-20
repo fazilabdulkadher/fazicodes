@@ -1,5 +1,43 @@
 @charset "utf-8";
-/* Styles */
+/* Styles */ 
+.validation{
+	background-color:rgba(223,18,22,1.00);
+	padding:10px;
+	font-size:14px;
+	color:rgba(255,255,255,1.00);
+	width:auto;
+	display:block;
+	position:absolute;
+	right:-190px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	top:0;}
+
+.hide{
+	display:none;}
+.v-emal{
+	 right: -272px;
+	 top: 79px;}
+.v-sbj{
+	 right: -272px;
+	 top: 152px;}
+.v-msg{
+	 right: -200px;
+	 top: 250px;}
+.validation:before {
+	content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 12px solid #DF1115;
+    position: absolute;
+    top: 8px;
+    left: -11px;}
+.cont-frm{
+	position:relative;}
 .pro-list .col2{
 	margin-right:30px!important;}
 .tools{

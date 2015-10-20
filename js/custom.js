@@ -34,3 +34,39 @@ $(".show-more").click(function(){
 $(".show-more").click(function(){
     $(".show-more").hide();
 });
+
+var nameval = function(){
+	var feeback = document.getElementById('namval');
+	if(this.value.length <= 0){
+		feeback.setAttribute('class', 'validation') 
+		}
+	else{
+		feeback.setAttribute('class', 'hide')
+		}
+	}
+var prntnam = document.getElementById('nemfld');
+prntnam.addEventListener('blur', nameval, false);
+
+var prntmsg = function(){
+	var feedbackmsg = document.getElementById('msgval');
+	if(this.value.length <= 4){
+		feedbackmsg.setAttribute('class', 'validation v-msg');
+		}
+	else{
+		feedbackmsg.setAttribute('class','hide');
+		}
+	}
+var etnmsg = document.getElementById('msg-fld');
+etnmsg.addEventListener('blur',prntmsg,false);
+
+var prntemil = function(){
+	var feedbackmsg = document.getElementById('emname');
+    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+	if(re.test(etnmsg)){
+		feedbackmsg.setAttribute('class', 'hide');
+		}
+	else{
+		feedbackmsg.setAttribute('class','validation v-emal');}
+	}
+var etnmsg = document.getElementById('emprnt');
+etnmsg.addEventListener('blur',prntemil,false);
