@@ -13,6 +13,7 @@
     <link href="css/animations.css" rel="stylesheet">
     <link href="css/max-367px.css" rel="stylesheet">
     <link href="css/max-767px.css" rel="stylesheet">
+    <link href="css/max-1200px.css" rel="stylesheet">
     <!--[if lte IE 9]><link href='css/animations-ie-fix.css' rel='stylesheet'><![endif]-->
 	<link href="css/font-awesome.css" rel="stylesheet"><!--
     <link rel="stylesheet" media="(max-width: 767px)" href="css/max-767px.css">-->
@@ -130,7 +131,7 @@
 </div>
 <!--Second row of my works-->
 <div id="show-secnd-row">
-<div class="col col12 prt-ston">
+<div class="col col12 prt-ston mrg-mb-itm">
 	<div class="col3 portfolio-cont-item wire">
     	<div class="port-body">
         	<img src="images/youmitter-mob.png">
@@ -191,7 +192,7 @@
 </div>
 <div class="about prof-bg" id="about">
 <div class="container">
-<div class="col col12 col-push">
+<div class="col col12 col-push mrg-tab txt-tab-cntr">
 <div class="col8 animatedParent animateOnce">
 <h2 class="animated bounceInRight delay-750">about me</h2>
 <label class="my-role gray animated bounceInRight delay-500">I'm a UX/UI Designer and Front End Developer from Kerala, India.</label>
@@ -205,8 +206,8 @@ I work for your users and your customers. Let me show you how.-->
 <li><a href="https://www.facebook.com/fazil.abdulkadher" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
 <li><a href="https://www.linkedin.com/profile/view?id=AAMAAAuki_8BN0nXnJne3qmeshgUafgkGRsQmEY&trk=hp-identity-name" target="_blank"><i class="fa fa-linkedin-square"></i></a></li><!--
 <li><a href="javascript:void(0)"><i class="fa fa-whatsapp"></i></a></li>
-<li><a href="javascript:void(0)"><i class="fa fa-behance"></i></a></li>
-<li><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>-->
+<li><a href="javascript:void(0)"><i class="fa fa-behance"></i></a></li>-->
+<li><a href="http://stackoverflow.com/users/4510678/fazil-abdulkhadar?tab=profile" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
 <li><a href="https://github.com/fazilabdulkadher" target="_blank"><i class="fa fa-github"></i></a></li>
 </ul>
 
@@ -368,6 +369,11 @@ I work for your users and your customers. Let me show you how.-->
     
 </div>
 <div class="contact about mob-pdng-abt png-con" id="contact">
+<div class="hide cont-mgs" id="my-smg">
+<div class="container">
+Your mail has been sent. Thank you.
+</div>
+</div>
 <div class="container animatedParent animateOnce animateOnce" >
 <h2 class="animated bounceInRight ">Contact</h2>
 <label class="pdng-mob my-role animated bounceInRight delay-250" >Let's have a cup of coffee together?</label>
@@ -375,19 +381,19 @@ I work for your users and your customers. Let me show you how.-->
 <div class="col6 pdng-lf-none animatedParent animateOnce animateOnce pdng-mob">
 
 <form class="top-mrg-30 animated bounceInRight slower delay-250 cont-frm" >
-<input type="text" placeholder="Name" id="nemfld"><div class="validation hide" id="namval">Please add a name</div>
-<input type="text" placeholder="Email" id="emprnt"><div class="validation v-emal hide" id="emname">Please enter a valid email address</div>
+<input type="text" placeholder="Name" id="nemfld"><div class="hide" id="namval">Please add a name</div>
+<input type="text" placeholder="Email" id="emprnt"><div class="hide" id="emname">Please enter a valid email address</div>
 <input type="text" placeholder="Subject">
-<textarea placeholder="Message" rows="5" id="msg-fld"></textarea><div class="validation v-msg hide" id="msgval">Please add a message</div>
+<textarea placeholder="Message" rows="5" id="msg-fld"></textarea><div class="hide" id="msgval">Please add a message</div>
 <ul class="inlile-list top-mrg-10 base-color">
 <li><a href="https://www.facebook.com/fazil.abdulkadher" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
 <li><a href="https://www.linkedin.com/profile/view?id=AAMAAAuki_8BN0nXnJne3qmeshgUafgkGRsQmEY&trk=hp-identity-name" target="_blank"><i class="fa fa-linkedin-square"></i></a></li><!--
 <li><a href="javascript:void(0)"><i class="fa fa-whatsapp"></i></a></li>
-<li><a href="javascript:void(0)"><i class="fa fa-behance"></i></a></li>
-<li><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>-->
+<li><a href="javascript:void(0)"><i class="fa fa-behance"></i></a></li>-->
+<li><a href="http://stackoverflow.com/users/4510678/fazil-abdulkhadar?tab=profile" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
 <li><a href="https://github.com/fazilabdulkadher" target="_blank"><i class="fa fa-github"></i></a></li>
 </ul>
-<input type="submit" value="SUBMIT" class="btn"> 
+<a href="javascript:void(0)" class="btn" id="smbtbtn"> Submit</a>
 </form>
 </div>
 </div>

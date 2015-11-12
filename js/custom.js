@@ -37,7 +37,7 @@ $(".show-more").click(function(){
 
 var nameval = function(){
 	var feeback = document.getElementById('namval');
-	if(this.value.length <= 0){
+	if(prntnam.value.length <= 0){
 		feeback.setAttribute('class', 'validation') 
 		}
 	else{
@@ -49,24 +49,52 @@ prntnam.addEventListener('blur', nameval, false);
 
 var prntmsg = function(){
 	var feedbackmsg = document.getElementById('msgval');
-	if(this.value.length <= 4){
+	if(etnrmsg.value.length <= 4){
 		feedbackmsg.setAttribute('class', 'validation v-msg');
-		}
+	}
 	else{
 		feedbackmsg.setAttribute('class','hide');
-		}
 	}
-var etnmsg = document.getElementById('msg-fld');
-etnmsg.addEventListener('blur',prntmsg,false);
+}
+var etnrmsg = document.getElementById('msg-fld');
+etnrmsg.addEventListener('blur',prntmsg,false);
 
 var prntemil = function(){
 	var feedbackmsg = document.getElementById('emname');
     var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-	if(re.test(etnmsg)){
-		feedbackmsg.setAttribute('class', 'hide');
-		}
-	else{
-		feedbackmsg.setAttribute('class','validation v-emal');}
+	if(re.test(etnmsg.value)){
+		feedbackmsg.setAttribute('class', 'hide'); 
 	}
+	else{
+		feedbackmsg.setAttribute('class','validation v-emal');
+	}
+}
 var etnmsg = document.getElementById('emprnt');
 etnmsg.addEventListener('blur',prntemil,false);
+
+var mymsg = function(){
+	prntmsg();
+	nameval();
+	prntemil();
+var doc = document.getElementById('contact').getElementsByClassName('validation');
+var scmsg = document.getElementById('my-smg');
+
+/*	if (document.getElementsByClassName('validation').length > 0 ){
+		scmsg.setAttribute('class', 'hide');
+		}
+	else{
+		scmsg.setAttribute('class','show');
+	}*/
+
+	if (doc.length>0){
+		scmsg.setAttribute('class', 'hide');
+		return false;
+		}
+	else{
+		scmsg.setAttribute('class','show sucs-msg cont-mgs');
+	}
+
+	}
+var dslpmgs = document.getElementById('smbtbtn');
+dslpmgs.addEventListener('click', mymsg, false);
+
