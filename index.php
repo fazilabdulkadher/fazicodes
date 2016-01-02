@@ -37,7 +37,7 @@
 
 <div class="site-wrap">
   <div class="my-self">
-  
+
 <div class="overlay-light" id="me">
   <div class="container">
   <header role="banner">
@@ -47,7 +47,7 @@
     <li><a href="#mywork">Work</a></li>
 	<li><a href="#about">About Me</a></li>
     <li><a href="https://www.linkedin.com/today/post/author/posts#published?trk=mp-reader-h" target="_blank">Writing</a></li>
-	<li><a href="#contact">Contact</a></li>    
+	<li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
   </header>
@@ -69,7 +69,7 @@
 <div class="animatedParent animateOnce animateOnce">
 <h1 class="animated bounceInRight delay-250">work</h1>
 <label class="my-work-l gray my-role gray animated bounceInRight delay-500">Dreaming in RGB, CMYK or Pantone color is completely normal.</label>
-<ul class="inlile-list work-list animated bounceInRight delay-750"> 
+<ul class="inlile-list work-list animated bounceInRight delay-750">
 <li><a href="javascript:void(0)" class="active showall">All</a></li>
 <li><a href="javascript:void(0)" class="showweb">Web</a></li>
 <li><a href="javascript:void(0)" class="showmob">Mobile</a></li>
@@ -88,7 +88,7 @@
           Compare
           </div>
             <a href="http://compare-ui.herokuapp.com/" class="overlay" target="_blank"></a>
-         
+
     </div>
     <div class="col3 portfolio-cont-item mob">
     	<div class="port-body">
@@ -100,7 +100,7 @@
           iLight
           </div>
             <a href="http://ilight.herokuapp.com/" class="overlay" target="_blank"></a>
-         
+
     </div><div class="col3 portfolio-cont-item web">
     	<div class="port-body">
         	<img src="images/specialized.png">
@@ -111,7 +111,7 @@
           Specialized
           </div>
             <a href="http://www.specialized.com/in/en-ap/home/" class="overlay" target="_blank"></a>
-         
+
     </div>
     <div class="col3 portfolio-cont-item web">
     	<div class="port-body">
@@ -123,11 +123,11 @@
           Fitfour
           </div>
             <a href="http://www.fitfour.com/" class="overlay"></a>
-         
+
     </div>
-    
+
     <div class="clr-fix"></div>
-    
+
 </div>
 <!--Second row of my works-->
 <div id="show-secnd-row">
@@ -142,7 +142,7 @@
           Youmitter Wireframing
           </div>
             <a href="http://youmitter-android.herokuapp.com/" class="overlay" target="_blank"></a>
-         
+
     </div>
     <div class="col3 portfolio-cont-item mob">
     	<div class="port-body">
@@ -154,7 +154,7 @@
           Youmitter
           </div>
             <a href="http://www.youmitter.com/" class="overlay" target="_blank"></a>
-         
+
     </div><div class="col3 portfolio-cont-item web">
     	<div class="port-body">
         	<img src="images/jp.png">
@@ -165,7 +165,7 @@
           jpeterman
           </div>
             <a href="http://www.jpeterman.com/" class="overlay" target="_blank"></a>
-         
+
     </div>
     <div class="col3 portfolio-cont-item web">
     	<div class="port-body">
@@ -177,11 +177,11 @@
           Triumphofutah
           </div>
             <a href="http://triumphofutah.com/" class="overlay" target="_blank"></a>
-         
+
     </div>
-    
+
     <div class="clr-fix"></div>
-    
+
 </div>
 </div>
 </div>
@@ -211,7 +211,7 @@ I work for your users and your customers. Let me show you how.-->
 <li><a href="https://github.com/fazilabdulkadher" target="_blank"><i class="fa fa-github"></i></a></li>
 </ul>
 
-<div class="clr-fix"></div>	
+<div class="clr-fix"></div>
 <hr class="top-mrg-10 white-bg disply-non-mb">
 </div>
 <div class="col col12 pdng-lf-none top-mrg-30 pro-list">
@@ -251,7 +251,7 @@ I work for your users and your customers. Let me show you how.-->
 <div class="pie-cht-cont animatedParent animateOnce">
 <h5 class="skill-h5 animated bounceInRight delay-500">MY TECHNICAL SKILLS</h5>
 <span class="gray sub-h5 animated bounceInRight delay-250">I can say i’m quite good at</span>
-<!--<ul class="inlile-list work-list wr-li2 animated bounceInRight delay-750"> 
+<!--<ul class="inlile-list work-list wr-li2 animated bounceInRight delay-750">
 <li><a href="javascript:void(0)" class="active">Tools</a></li>
 <li><a href="javascript:void(0)">Skills</a></li>
 </ul>-->
@@ -263,19 +263,19 @@ I work for your users and your customers. Let me show you how.-->
 	<li class="animated tada delay-250"><div class="skill-bub ps">Ps</div></li>
     <li class="actv-li animated tada delay-500"><div class="bar"><div class="progress ps-pg">Photoshop<span class="pull-right">80%</span></div></div></li>
     </ul>
-	
+
     <div class="clr-fix"></div>
     <ul class="animatedParent animateOnce tools">
 	<li class="animated tada delay-250"><div class="skill-bub dw">Dw</div></li>
     <li class="actv-li animated tada delay-250"><div class="bar"><div class="progress ps-dw">Dreamweaver <span class="pull-right">90%</span></div></div></li>
     </ul>
-	
+
     <div class="clr-fix"></div>
        <ul class="animatedParent animateOnce tools">
 	<li class="animated tada delay-250"><div class="skill-bub cd"></div></li>
     <li class="actv-li animated tada delay-250"><div class="bar"><div class="progress ps-cd">CorelDraw <span class="pull-right">80%</span></div></div></li>
     </ul>
-	
+
     <div class="clr-fix"></div>
     <ul class="animatedParent animateOnce tools">
 	<li class="animated tada delay-250"><div class="skill-bub ai">Ai</div></li>
@@ -339,7 +339,7 @@ I work for your users and your customers. Let me show you how.-->
 </div>
 </div>
     </div>
-    
+
 <div class="clr-fix"></div>
 </div>
 <div class="testmonial">
@@ -354,9 +354,9 @@ I work for your users and your customers. Let me show you how.-->
     <li><a class="clnt-ph-cont clnt-one" href="javascript:void(0)"></a></li>-->
     </ul>
     <div class="test-text">
-    <p> <span class="tst-qts"><i class="fa fa-quote-left"></i></span> 
+    <p> <span class="tst-qts"><i class="fa fa-quote-left"></i></span>
     When it comes to HTML 5, Responsive Design or CSS 3, there is only one name that stands out – Fazil. Everyone wants Fazil’s time, developers request him to improve the usability and look-n-feel of the UI screens, design Creative element of the pages and the list continues ...
-     <span class="tst-qts"><i class="fa fa-quote-right"></i></span> 
+     <span class="tst-qts"><i class="fa fa-quote-right"></i></span>
       </p>
       <hr class="clnt-hr">
     <div class="clnt-det">
@@ -366,7 +366,7 @@ I work for your users and your customers. Let me show you how.-->
     </div>
     </div>
     </div>
-    
+
 </div>
 <div class="contact about mob-pdng-abt png-con" id="contact">
 <div class="hide cont-mgs" id="my-smg">
@@ -380,11 +380,11 @@ Your mail has been sent. Thank you.
 <div class="col col12 pdng-lf-none">
 <div class="col6 pdng-lf-none animatedParent animateOnce animateOnce pdng-mob">
 
-<form class="top-mrg-30 animated bounceInRight slower delay-250 cont-frm" >
-<input type="text" placeholder="Name" id="nemfld"><div class="hide" id="namval">Please add a name</div>
-<input type="text" placeholder="Email" id="emprnt"><div class="hide" id="emname">Please enter a valid email address</div>
-<input type="text" placeholder="Subject">
-<textarea placeholder="Message" rows="5" id="msg-fld"></textarea><div class="hide" id="msgval">Please add a message</div>
+<form name="email_form" class="top-mrg-30 animated bounceInRight slower delay-250 cont-frm" action="faemail.php" method="post" >
+<input type="text" placeholder="Name" id="nemfld" name="email_sender" ><div class="hide" id="namval">Please add a name</div>
+<input type="text" placeholder="Email" id="emprnt" name="email_from" ><div class="hide" id="emname">Please enter a valid email address</div>
+<input type="text" placeholder="Subject" id="esub" name="email_subject" >
+<textarea placeholder="Message" rows="5" id="msg-fld" name="email_message" ></textarea><div class="hide" id="msgval">Please add a message</div>
 <ul class="inlile-list top-mrg-10 base-color">
 <li><a href="https://www.facebook.com/fazil.abdulkadher" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
 <li><a href="https://www.linkedin.com/profile/view?id=AAMAAAuki_8BN0nXnJne3qmeshgUafgkGRsQmEY&trk=hp-identity-name" target="_blank"><i class="fa fa-linkedin-square"></i></a></li><!--
@@ -393,7 +393,7 @@ Your mail has been sent. Thank you.
 <li><a href="http://stackoverflow.com/users/4510678/fazil-abdulkhadar?tab=profile" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
 <li><a href="https://github.com/fazilabdulkadher" target="_blank"><i class="fa fa-github"></i></a></li>
 </ul>
-<a href="javascript:void(0)" class="btn" id="smbtbtn"> Submit</a>
+<a href="#" onClick="sendEmail()" class="btn" id="smbtbtn"> Submit</a>
 </form>
 </div>
 </div>
@@ -420,3 +420,44 @@ Your mail has been sent. Thank you.
     <script src="js/css3-animate-it.js"></script>
     </body>
 </html>
+<script>
+
+function sendEmail() {
+  var postRequest=new ajaxRequest()
+    postRequest.onreadystatechange=function(){
+      if (postRequest.readyState==4){
+        alert("Thank You for your email. I will respond back shortly")
+     }
+   }
+
+  var email_sender=encodeURIComponent(document.getElementById("nemfld").value)
+  var email_subject=encodeURIComponent(document.getElementById("esub").value)
+  var email_message=encodeURIComponent(document.getElementById("msg-fld").value)
+  var email_from=encodeURIComponent(document.getElementById("emprnt").value)
+  var parameters="email_sender="+email_sender+"&email_subject="+email_subject+"&email_message="+email_message+"&email_from="+email_from;
+  postRequest.open("POST", "faemail.php", true);
+  postRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  postRequest.send(parameters);
+
+}
+
+
+function ajaxRequest(){
+ var activexmodes=["Msxml2.XMLHTTP", "Microsoft.XMLHTTP"] //activeX versions to check for in IE
+ if (window.ActiveXObject){ //Test for support for ActiveXObject in IE first (as XMLHttpRequest in IE7 is broken)
+  for (var i=0; i<activexmodes.length; i++){
+   try{
+    return new ActiveXObject(activexmodes[i])
+   }
+   catch(e){
+    //suppress error
+   }
+  }
+ }
+ else if (window.XMLHttpRequest) // if Mozilla, Safari etc
+  return new XMLHttpRequest()
+ else
+  return false
+}
+
+</script>
